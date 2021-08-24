@@ -38,7 +38,7 @@ function Navbar({items,show}) {
                 <Link className="nav-link" to="/sneakerShop/">Link 1</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link " to="/sneakerShop"  >Link 2</Link>
+                <Link className="nav-link " to="/sneakerShop/"  >Link 2</Link>
               </li>
             </ul>
             <form className="d-flex">

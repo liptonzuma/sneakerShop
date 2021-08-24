@@ -74,7 +74,7 @@ function CartItems({selectedItems,
              </p>
             {selectedItems.map(el=>{
                 return <div className="d-flex mt-5" key={Math.random()}>
-                    <img src={el.image} alt="" className="img-fluid w-25 mx-4 gx-5" />
+                    <img src={el.image} alt="" className="img-fluid w-25 mx-4 gx-5 h-25" />
                     <p className="lead m-auto">${el.price}</p>
                     <div className="select m-auto">
                         <form  className="form-group">
