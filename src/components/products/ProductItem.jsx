@@ -16,7 +16,9 @@ function ProductItem({product,setItems,items,getProductDetails}) {
                   backgroundSize: 'contain',
               backgroundAttachment: 'local',
               backgroundRepeat: 'no-repeat'
-                 }}></div>
+                 }}
+                 onClick={getProductDetails}
+                 ></div>
                  </Button>
                  </Link>
                  </Grid>

@@ -48,9 +48,16 @@ const [show,setShow]=useState(false)
   }
   
 const getProductDetails=(e)=>{
-  const itemImage =e.target.src
-  const res=itemImage.split("/").slice(4,7).join("/")
-  const item = product.filter(e=> e.image === res);
+  const item1 =e.target.style.backgroundImage.split("(");
+ const  itemImage1=item1.pop()
+ const url = itemImage1.split(")")
+  url.pop();
+let itemImage=url[0]
+const arr = itemImage.split('"')
+  arr.pop()
+  arr.shift()
+  itemImage = arr.join();
+  const item = product.filter(e=> e.image === itemImage);
   setItemDetails(item[0])
 }
 
