@@ -1,0 +1,143 @@
+[
+                    {
+                        "id":0,
+                        "name":"Air-max",
+                        "brand":"Nike",
+                        "description":"Men's shoes sneakers by Nike",
+                        "price":120,
+                        "color":"white",
+                        "image":"assets/images/air-max-genome-mens-shoes-f4SHr3.jpeg",
+                        "details":["assets/images/air-max-more.jpeg",
+                            "assets/images/air-max-more1.jpeg",
+                            "assets/images/air-max-more2.jpeg"
+                            ]                    },
+                    {
+                        "id":1,
+                        "name":"Nike Revolution 5",
+                        "brand":"Nike",
+                        "description":"Men's shoes sneakers by Nike",
+                        "price":120 ,
+                        "color":"White and Purple",
+                        "image":"assets/images/nike-revolution.jpeg"  ,
+                        "details":[
+                            "assets/images/more2.jpeg",
+                            "assets/images/more3.jpeg",
+                            "assets/images/more4.jpeg"
+                        ]  
+                    },
+                    {
+                        "id":2,
+                        "name":"Jordan 1",
+                        "brand":"Nike",
+                        "description":"Men's shoes sneakers by Nike",
+                        "price":300,
+                        "color":"Blue and White",
+                        "image":"assets/images/jordan1.jpg",
+                        "details":[
+                            "assets/images/j1.jpeg",
+                            "assets/images/j1-2.jpeg",
+                            "assets/images/j1-3.jpeg"
+                        ]
+                    },           
+                     {
+                        "id":3,
+                        "name":"Jordan 4",
+                        "brand":"Nike",
+                        "description":"Men's shoes sneakers by Nike",
+                        "price":300,
+                        "color":"Blue and White",
+                        "image":"assets/images/jordan4.jpg",
+                        "details":[
+                            "assets/images/j4-1.jpeg",
+                            "assets/images/j4-2.jpeg",
+                            "assets/images/j4.jpeg"
+                        ]
+                    },
+                    {
+                        "id":4,
+                        "name":"Nike Revolution 5",
+                        "brand":"Nike",
+                        "description":"Men's shoes sneakers by Nike",
+                        "price":300,
+                        "color":"White and purple",
+                        "image":"assets/images/nike-revolution.jpeg",
+                        "details":[
+                            "assets/images/r1-2.jpeg",
+                            "assets/images/r1-3.jpeg",
+                            "assets/images/r1-4.jpeg"
+                        ]
+                    },
+                    {
+                        "id":5,
+                        "name":"Sabalo",
+                        "brand":"Addidas",
+                        "description":"Men's shoes sneakers by Addidas",
+                        "price":300,
+                        "color":"Black",
+                        "image":"assets/images/sabalo.jpg",
+                        "details":[
+                            "assets/images/sabalo1.jpeg",
+                            "assets/images/sabalo2.jpeg",
+                            "assets/images/sabalo3.jpeg"
+                        ]
+                    },
+                    {
+                        "id":6,
+                        "name":"Yeezy Boost",
+                        "brand":"Addidas",
+                        "description":"Men's shoes sneakers by Addidas",
+                        "price":300,
+                        "color":"Black",
+                        "image":"assets/images/yeezy-boost.jpg",
+                        "details":[
+                            "assets/images/yb1.jpeg",
+                            "assets/images/yb2.jpeg",
+                            "assets/images/ybz2.jpeg"
+                        ]
+                    },
+                    {
+                        "id":7,
+                        "name":"R1 Series",
+                        "brand":"Addidas",
+                        "description":"Men's shoes sneakers by Addidas",
+                        "price":300,
+                        "color":"Black",
+                        "image":"assets/images/r1.jpg",
+                        "details":[
+                            "assets/images/r1-2.jpeg",
+                            "assets/images/r1-3.jpeg",
+                            "assets/images/r1-4.jpeg"
+                        ]
+                    },
+                    {
+                        "id":8,
+                        "name":"Fila Disruptor",
+                        "brand":"Fila",
+                        "description":"Men's shoes sneakers by fila",
+                        "price":300,
+                        "color":"White",
+                        "image":"assets/images/fila-men-s-disruptor-ii-sneakers-white-14-m-white-peacoat-687c-main.jpg",
+                        "details":[
+                            "assets/images/disruptor1.jpeg",
+                            "assets/images/disruptor2.jpeg",
+                            "assets/images/disruptor3.jpeg"
+                        ]
+                    },
+                    {
+                        "id":9,
+                        "name":"Yeezy Day Boost",
+                        "brand":"Addidas",
+                        "description":"Men's shoes sneakers by Addidas",
+                        "price":310,
+                        "color":"Black",
+                        "image":"assets/images/yeezy-day-boost.jpg",
+                        "details":[
+                            "assets/images/ydb1.jpeg",
+                            "assets/images/ydb2.jpeg",
+                            "assets/images/ydb3.jpeg"
+                        ]
+                    }
+
+                ]
+    
+   
