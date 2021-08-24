@@ -12,7 +12,7 @@ function ProductItem({product,setItems,items,getProductDetails}) {
                <Grid item sm={4} md={2} xs={6} >
     
                <Link className="link" to="/product"> <Button onClick={getProductDetails}>
-                 <img src={product.image} alt="" loading="lazy"/>
+                 <img src={product.image} alt=""/>
                  </Button>
                  </Link>
                  </Grid>

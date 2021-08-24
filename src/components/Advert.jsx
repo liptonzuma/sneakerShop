@@ -8,7 +8,7 @@ function Advert() {
             </p>
             <div className="items row">
                 <div className="col-12">
-                    <img src="assets/images/bf.jpg" alt="bf" loading="lazy" className="img-auto w-100"/>
+                    <img src="assets/images/bf.jpg" alt="bf"  className="img-auto w-100"/>
                 </div>
             </div>
         </div>
