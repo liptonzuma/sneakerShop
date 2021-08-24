@@ -9,14 +9,18 @@ function ProductItem({product,setItems,items,getProductDetails}) {
     })
     return (
         <div className="item m-lg-4 m-2" data-aos="fade-up">
-               <Grid item sm={4} md={2} xs={6} >
-    
+               <Grid item sm={4} md={2} xs={6}>
                <Link className="link" to="/sneakerShop/product"> <Button onClick={getProductDetails}>
-                 <img src={product.image} alt=""/>
+                 <div className="item-image" style={{
+                   background:`url(${product.image})`,
+                  backgroundSize: 'contain',
+              backgroundAttachment: 'local',
+              backgroundRepeat: 'no-repeat'
+                 }}></div>
                  </Button>
                  </Link>
                  </Grid>
-                 <div className="detailsd">
+                 <div className="details">
                      <p className="lead">{product.name}</p>
                      <div className="price-area">
                      <small className="price">${product.price}.00</small>

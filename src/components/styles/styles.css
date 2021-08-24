@@ -61,10 +61,9 @@ body, html {
   color: white !important;
 }
 
-.products img {
-  max-width: 150px;
-  max-height: 170.03px;
-  height: 170.03px;
+.products .item-image {
+  width: 8rem;
+  height: 8rem;
 }
 
 .products .lead {

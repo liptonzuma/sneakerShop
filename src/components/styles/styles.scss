@@ -46,10 +46,11 @@ body,html{
         background: black !important;
         color: white !important;
     }
-    img{
-        max-width: 150px;
-        max-height:170.03px;
-        height:170.03px
+    .item-image{
+       width:8rem;
+       height: 8rem;
+       
+
     }
     .lead{
         font-size: 0.9rem;
