@@ -52,7 +52,7 @@ function CartItems({selectedItems,
 
     const removeItem=(e)=>{
         const itemImage=e.target.parentNode.parentNode.parentNode.children[0].src;
-        const res=itemImage.split("/").slice(3,6).join("/");
+        const res=itemImage.split("/").slice(4,7).join("/");
         const index=selectedItems.findIndex(e=>(e.image===res));
         selectedItems.splice(index,1);
         setSelectedItems(selectedItems);

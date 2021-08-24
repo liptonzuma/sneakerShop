@@ -68,7 +68,7 @@ const getProductDetails=(e)=>{
        
       <Navbar items={items} show={show}/>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/sneakerShop/">
       <LandingPage />
       <Advert />
       <Products
@@ -83,7 +83,7 @@ const getProductDetails=(e)=>{
       <Subscribe />
       <Footer/>
       </Route>
-      <Route path="/cart">
+      <Route path="/sneakerShop/cart">
       <CartItems 
       selectedItems={selectedItems}
        product={product}
@@ -93,10 +93,10 @@ const getProductDetails=(e)=>{
        setShow={setShow}
        />
       </Route>
-      <Route path="/notification">
+      <Route path="/sneakerShop/notification">
         <Notification notification={notification}  />
       </Route>
-      <Route path="/product">
+      <Route path="/sneakerShop/product">
         <ProductDetails itemDetails={itemDetails} />
       </Route>
       </Switch>
